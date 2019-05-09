@@ -1,0 +1,34 @@
+.post-meta-item {
+    color: #c9ccd0;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.post-content {
+    padding: 20px;
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.post-article{
+    padding: 20px;background-color: #fff;border-radius: 3px;min-height: 460px;float:left;width:100%;
+}
+.post-meta-inline{
+    float: right;min-width: 40px;height:40px;padding-top:8px;padding-right: 12px;
+}
+
+.post-content ul {
+    list-style: disc;
+}
+.post-content ul, .article-content ol {
+    margin: 0 0 18px 46px;
+}
+
+.post-content ul li {
+    list-style-type: disc;
+}
+
+.post-content ul li {
+    margin-bottom: 6px;
+}
