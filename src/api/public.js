@@ -2,8 +2,8 @@ import axios from 'axios'
 import qs from 'qs'
 
 axios.defaults.timeout = 10000
-// axios.defaults.baseURL = 'http://hxl2hzl.com:5000'
-axios.defaults.baseURL = 'http://localhost:5000'
+axios.defaults.baseURL = 'http://hxl2hzl.com:5000'
+// axios.defaults.baseURL = 'http://localhost:5000'
 // axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8'
 export default {
     fetchGet(url, params = {}) {
